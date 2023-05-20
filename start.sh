@@ -14,5 +14,5 @@ nohup ./haxhax -L relay+wss://username:159159@:8081>/dev/null 2>&1 &
 echo "set ngrok token: $NGROK_TOKEN"
 ngrok authtoken $NGROK_TOKEN
 echo "start ngrok service"
-ngrok tcp 8081 --log=stdout > ngrok.log
+ngrok tcp 22 --log=stdout > ngrok.log
 
